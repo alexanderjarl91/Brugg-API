@@ -33,7 +33,7 @@ BRUGG API has two endpoints;
 ### /breweries
 
 ```
-https://brugg-api-nodejs.herokuapp.com/breweries
+https://brugg-api.herokuapp.com/breweries
 ```
 
 This endpoint lists breweries in Iceland with information about location, contact information, their logo and their catalog of beers. The data accessable from this endpoint is hosted on Googles Firebase and is fetched/updated once every 24 hours.
@@ -41,7 +41,7 @@ This endpoint lists breweries in Iceland with information about location, contac
 ### /beers
 
 ```
-https://brugg-api-nodejs.herokuapp.com/beer
+https://brugg-api.herokuapp.com/beer
 ```
 
 This endpoint has the entire catalog of all beers in listed breweries. This data is hosted locally with the API.
