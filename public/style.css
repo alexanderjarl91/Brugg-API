@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.logo {
+  width: 40%;
+}
+
 .body {
   display: flex;
   align-content: center;
