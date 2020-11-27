@@ -1,10 +1,12 @@
 # BRUGG API :beer:
 
-#
+https://brugg-api-nodejs.herokuapp.com/
 
 ## Description
 
-Using Node.js and the Express framework, this RESTful API delivers data about breweries in Iceland. Contact xxx@xxx.com to get your brewery listed on the API. This API is available to anyone for non-commercial purposes for the time being.
+Using Node.js and the Express framework, this RESTful API delivers data about breweries in Iceland. This API is hosted on Heroku.
+
+Contact xxx@xxx.com to get your brewery listed. This API is available to anyone for non-commercial purposes for the time being.
 
 #
 

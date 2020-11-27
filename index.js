@@ -12,6 +12,7 @@ app.use(cors());
 
 let breweries = {};
 
+//fetch data form googles firestore cloud service
 async function fetchBreweries() {
   try {
     //get data from cloud and set it to breweries const
@@ -29,10 +30,10 @@ async function fetchBreweries() {
   }
 }
 
+//use static files from /public folder
+app.use(express.static(__dirname + "/public"));
+
 //endpoints defined
-app.get("", (req, res) => {
-  res.json("Welcome to BRUGG API");
-});
 
 app.get("/breweries", (req, res) => {
   res.json(breweries);
@@ -53,5 +54,5 @@ setInterval(fetchBreweries, 5000);
 
 //set port to
 app.listen(port, () => {
-  console.log(`example app is listening on port ${port}`);
+  console.log(`API is up and running and listening on port ${port}`);
 });
