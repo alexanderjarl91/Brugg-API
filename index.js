@@ -29,7 +29,11 @@ async function fetchBreweries() {
   }
 }
 
-//api route: fyllir "/" endpoint með (jsonData)
+//endpoints defined
+app.get("", (req, res) => {
+  res.json("Welcome to BRUGG API");
+});
+
 app.get("/breweries", (req, res) => {
   res.json(breweries);
 });
