@@ -2,19 +2,15 @@
 
 ## Description
 
-Using Node.js and the Express framework, this RESTful API delivers data about breweries in Iceland. This API is hosted on Heroku.
+Using Node.js and the Express framework, this RESTful API delivers data about breweries in Iceland. This API is hosted on Heroku and was created for a school project.
 
-https://brugg-api-nodejs.herokuapp.com/
-
-#
+https://brugg-api.herokuapp.com/
 
 ## Authentication
 
 There is no authentication needed right now to consume this API. Just fetch from the given endpoint directly.
 
 ###### Authentication in the form of an API key will be implemented in the near future so if your application suddently doesn't have access to the data, thats probably why.
-
-#
 
 ## Responses
 
@@ -30,17 +26,25 @@ All responses return data in JSON format.
 ]
 ```
 
-#
-
 ## Endpoints;
 
 BRUGG API has two endpoints;
 
-`https://brugg-api-nodejs.herokuapp.com/breweries`
-lists breweries in Iceland with information about location, contact information, their logo and their catalog of beers. The data accessable from this endpoint is hosted on Googles Firebase and is fetched/updated once every 24 hours.
+### /breweries
 
-`https://brugg-api-nodejs.herokuapp.com/beer`
-has the entire catalog of all beers in listed breweries. This data is hosted locally with the API.
+```
+https://brugg-api-nodejs.herokuapp.com/breweries
+```
+
+This endpoint lists breweries in Iceland with information about location, contact information, their logo and their catalog of beers. The data accessable from this endpoint is hosted on Googles Firebase and is fetched/updated once every 24 hours.
+
+### /beers
+
+```
+https://brugg-api-nodejs.herokuapp.com/beer
+```
+
+This endpoint has the entire catalog of all beers in listed breweries. This data is hosted locally with the API.
 
 #
 
