@@ -34,7 +34,6 @@ async function fetchBreweries() {
 app.use(express.static(__dirname + "/public"));
 
 //endpoints defined
-
 app.get("/breweries", (req, res) => {
   res.json(breweries);
 });
