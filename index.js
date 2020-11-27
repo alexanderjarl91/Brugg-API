@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 //const { json } = require("body-parser");
 
 const localData = require("./localData.json");
-
+let port = process.env.PORT || 3000;
 const app = express();
 
 // using cors with no arguments, therefore api can be fetched from any server.
@@ -20,7 +20,7 @@ async function fetchBreweries() {
     );
     response.json().then((data) => {
       breweries = data;
-      console.log(data);
+      //console.log(data);
     });
     //log that the api data was fetched successfully at
     console.log(`Api data successfully fetched at ${Date()}`);
@@ -52,4 +52,6 @@ fetchBreweries();
 setInterval(fetchBreweries, 5000);
 
 //set port to
-app.listen(3005);
+app.listen(port, () => {
+  console.log(`example app is listening on port ${port}`);
+});
