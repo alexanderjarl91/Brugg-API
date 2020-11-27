@@ -3,6 +3,8 @@ const cors = require("cors");
 const fetch = require("node-fetch");
 //const { json } = require("body-parser");
 
+const localData = require("./localData.json");
+
 const app = express();
 
 // using cors with no arguments, therefore api can be fetched from any server.
@@ -30,6 +32,10 @@ async function fetchBreweries() {
 //api route: fyllir "/" endpoint með (jsonData)
 app.get("/breweries", (req, res) => {
   res.json(breweries);
+});
+
+app.get("/beers", (req, res) => {
+  res.json(localData);
 });
 
 //get api data
