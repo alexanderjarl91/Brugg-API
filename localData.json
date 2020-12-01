@@ -1,13 +1,17 @@
 [
     {
-        "brewery": "kaldi_bjór",
-        "catalog": [
-                        {
-                            "name": "Kaldi",
-                            "description": "pretty darn good"
-                        }
-        ]
+        "name": "kaldi_bjór",
+        "brewery":"Kaldi Brugghús",
+        "type":"Lager",
+        "abv":"5%",
+        "img":"http://www.bruggsmidjan.is/static/extras/images/.m/lj%C3%B3s%20kaldi22.jpg"
+    },
+    {
+        "name": "Bríó",
+        "brewery":"Kaldi Brugghús",
+        "type":"Pilsner",
+        "abv":"4.7%",
+        "img":"http://www.borgbrugghus.is/media/nr01brioprize.png"
     }
-
 
 ]

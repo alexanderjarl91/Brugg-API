@@ -1,0 +1,153 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1606554508.json", 
+	"title": "Root", 
+	"type": "object",
+	"properties": {
+		"address": {
+			"$id": "#root/address", 
+			"title": "Address", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Öldugata 22, 621 Ársskógssandur"
+			],
+			"pattern": "^.*$"
+		},
+		"name": {
+			"$id": "#root/name", 
+			"title": "Name", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Kaldi"
+			],
+			"pattern": "^.*$"
+		},
+		"about": {
+			"$id": "#root/about", 
+			"title": "About", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Eftir að Ólafur slasaði sig illa á hné árið 2003, eftir um 26 ár sem sjómaður, þá stóð hann frammi fyrir því að hafa enga atvinnu í sínum heimabæ Árskógssandi, þar sem allt snýst um fiskinn. Eftir um 2 ár þar sem þau hjónin reyndu hvað þau gátu að finna ný verkefni, en ekkert virtist ganga, þá sér Agnes frétt á RÚV í júní 2005. Í þeirri frétt var fjallað um auknar vinsældir svokallaðra Micro-Brugghúsa, og tekið var viðtal við bruggara og eiganda slíks brugghúss í Danmörku. Á þessum tímum voru engin slík brugghús á Íslandi, eingöngu tvö fjöldaframleiðslu brugghús, Vífilfell og Ölgerðin. Agnes ólst upp við það að föðuramma hennar hafði mikið dálæti af vatninu okkar hér í bænum og var vön að segja að við ættum 'besta vatn í heimi!', Við það að sjá þessa frétt kviknaði þessi stórfurðulega hugmynd: Stofnum brugghús!"
+			],
+			"pattern": "^.*$"
+		},
+		"logoSrc": {
+			"$id": "#root/logoSrc", 
+			"title": "Logosrc", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"http://www.bruggsmidjan.is/static/themes/2016/images/logo.png"
+			],
+			"pattern": "^.*$"
+		},
+		"webUrl": {
+			"$id": "#root/webUrl", 
+			"title": "Weburl", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"http://www.bruggsmidjan.is/"
+			],
+			"pattern": "^.*$"
+		},
+		"tripadvisorUrl": {
+			"$id": "#root/tripadvisorUrl", 
+			"title": "Tripadvisorurl", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"https://www.tripadvisor.com/Attraction_Review-g1184954-d10175255-Reviews-Bruggsmidjan_Kaldi_Brewery-Dalvik_Northeast_Region.html"
+			],
+			"pattern": "^.*$"
+		},
+		"email": {
+			"$id": "#root/email", 
+			"title": "Email", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"bruggsmidjan@bruggsmidjan.is"
+			],
+			"pattern": "^.*$"
+		},
+		"catalog": {
+			"$id": "#root/catalog", 
+			"title": "Catalog", 
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/catalog/items", 
+				"title": "Items", 
+				"type": "object",
+				"properties": {
+					"beerName": {
+						"$id": "#root/catalog/items/beerName", 
+						"title": "Beername", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Kaldi"
+						],
+						"pattern": "^.*$"
+					},
+					"beerImg": {
+						"$id": "#root/catalog/items/beerImg", 
+						"title": "Beerimg", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"http://www.bruggsmidjan.is/static/extras/images/.m/lj%C3%B3s%20kaldi22.jpg"
+						],
+						"pattern": "^.*$"
+					},
+					"beerType": {
+						"$id": "#root/catalog/items/beerType", 
+						"title": "Beertype", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Pilsner"
+						],
+						"pattern": "^.*$"
+					},
+					"beerABV": {
+						"$id": "#root/catalog/items/beerABV", 
+						"title": "Beerabv", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"5%"
+						],
+						"pattern": "^.*$"
+					},
+					"beerVol": {
+						"$id": "#root/catalog/items/beerVol", 
+						"title": "Beervol", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"330ml"
+						],
+						"pattern": "^.*$"
+					},
+					"beerDescription": {
+						"$id": "#root/catalog/items/beerDescription", 
+						"title": "Beerdescription", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Kaldi ljós er ljóskopargullin lager bjór með mjúkri fyllingu. Bjórinn er bruggaður úr Tékknesku malti og í hann eru notaðir Tékkneskir Sládek og Saaz humlar til að búa til þægilega beiskju og ilm."
+						],
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		}
+	}
+}

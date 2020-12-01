@@ -10,6 +10,7 @@ const app = express();
 // using cors with no arguments, therefore api can be fetched from any server.
 app.use(cors());
 
+//define an object that will contain the database and be updated once a day
 let breweries = {};
 
 //fetch data form googles firestore cloud service
@@ -20,11 +21,13 @@ async function fetchBreweries() {
       "https://us-central1-brugg-api-5b2c1.cloudfunctions.net/brewery"
     );
     response.json().then((data) => {
+      //set breweries equal to data
       breweries = data;
-      //console.log(data);
+      //log the first breweries first beers name
+      console.log(breweries[1].catalog[0].beerName);
     });
     //log that the api data was fetched successfully at
-    console.log(`Api data successfully fetched at ${Date()}`);
+    console.log(`Data successfully fetched at ${Date()}`);
   } catch (err) {
     console.log("fetch failed");
   }

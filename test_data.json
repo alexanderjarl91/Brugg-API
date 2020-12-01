@@ -1,0 +1,83 @@
+{
+    "address": "Öldugata 22, 621 Ársskógssandur",
+    "name": "Kaldi",
+    "about": "Eftir að Ólafur slasaði sig illa á hné árið 2003, eftir um 26 ár sem sjómaður, þá stóð hann frammi fyrir því að hafa enga atvinnu í sínum heimabæ Árskógssandi, þar sem allt snýst um fiskinn. Eftir um 2 ár þar sem þau hjónin reyndu hvað þau gátu að finna ný verkefni, en ekkert virtist ganga, þá sér Agnes frétt á RÚV í júní 2005. Í þeirri frétt var fjallað um auknar vinsældir svokallaðra Micro-Brugghúsa, og tekið var viðtal við bruggara og eiganda slíks brugghúss í Danmörku. Á þessum tímum voru engin slík brugghús á Íslandi, eingöngu tvö fjöldaframleiðslu brugghús, Vífilfell og Ölgerðin. Agnes ólst upp við það að föðuramma hennar hafði mikið dálæti af vatninu okkar hér í bænum og var vön að segja að við ættum 'besta vatn í heimi!', Við það að sjá þessa frétt kviknaði þessi stórfurðulega hugmynd: Stofnum brugghús!",
+    "logoSrc": "http://www.bruggsmidjan.is/static/themes/2016/images/logo.png",
+    "webUrl": "http://www.bruggsmidjan.is/",
+    "tripadvisorUrl": "https://www.tripadvisor.com/Attraction_Review-g1184954-d10175255-Reviews-Bruggsmidjan_Kaldi_Brewery-Dalvik_Northeast_Region.html",
+    "email": "bruggsmidjan@bruggsmidjan.is",
+    "catalog": [
+        {
+            "beerName": "Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/lj%C3%B3s%20kaldi22.jpg",
+            "beerType": "Pilsner",
+            "beerABV": "5%",
+            "beerVol": "330ml",
+            "beerDescription": "Kaldi ljós er ljóskopargullin lager bjór með mjúkri fyllingu. Bjórinn er bruggaður úr Tékknesku malti og í hann eru notaðir Tékkneskir Sládek og Saaz humlar til að búa til þægilega beiskju og ilm."
+        },
+        {
+            "beerName": "Dökkur Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/d%C3%B6kkur%20kaldi21.jpg",
+            "beerType": "Dökkur Pilsner",
+            "beerABV": "5%",
+            "beerVol": "330ml",
+            "beerDescription": "Kaldi Dökkur er annar bjórinn sem Bruggsmiðjan setti á markað. Þessi dökki Pilsner er rafbrúnn á lit með mikilli fyllingu, ristuðu malti og karamellu keim. Kaldi dökkur á sér afar tryggan kúnnahóp sem stækkar meir og meir.Kaldi dökkur er dökk rafbrúnn lager bjór með meðalfyllingu. Bjórinn er bruggaður úr fjórum tegundum af Tékknesku malti og í hann eru notaðir Tékknesku humlarnir Sládek og Saaz."
+        },
+        {
+            "beerName": "Norðan Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/nor%C3%B0an%20kaldi30.jpg",
+            "beerType": "Ale",
+            "beerABV": "5.4%",
+            "beerVol": "330ml",
+            "beerDescription": "Norðan Kaldi er þriðja tegundin frá Bruggsmiðjunni, og jafnframt fyrsta ölið sem kom frá Kalda. Norðan Kaldi er öl af enskum stíl, rafbrúnn og maltmikill. Norðan kaldi er rafgullið öl, með fersku humlabragði og ristuðu maltbragði. Bjórinn er bruggaður úr 3 tegundum af tékknesku malti og í hann eru notaðir tékkneskir og nýsjálenskir humlar."
+        },
+        {
+            "beerName": "Stinnings Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/stinnings%20kaldi23.jpg",
+            "beerType": "Ale",
+            "beerABV": "4.6%",
+            "beerVol": "330ml",
+            "beerDescription": "Stinnings Kaldi er fjórða tegundin frá Bruggsmiðjunni. Stinnings Kaldi er öl, gerjað með ensku geri. Það sem gerir þennan bjór frábrugðinn öðrum er að við bætum út í hann hvönn sem er skorin í Hrísey og unnin af Saga Medica. Stinnings Kaldi er rafgullið öl, með mjúkri beiskju. Í þennan bjór er notuð hvönn sem skorin er í Hrísey og unnin af Saga Medica. Hvönnin gerir bjórinn mjög einstakan og frábrugðin öðrum bjórum en hvönnin gefur frá sér lakkrískeim. Í bjórinn eru notaðar þrjár tegundir af tékknesku malti og humlar frá Tékklandi og Nýja Sjálandi."
+        },
+        {
+            "beerName": "Kaldi Imperial Pilsner",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/afm%C3%A6lis43.jpg",
+            "beerType": "Ale",
+            "beerABV": "6.5%",
+            "beerVol": "330ml",
+            "beerDescription": "Þessi 10 ára afmælis bjór frá Kalda er Pilsner stíll, en humlaður með Amerískum Mosaic. Bjórinn er 6,5% Alk og hefur létta og þægilega fyllingu en frískandi humlabragði. Þessi bjór verður væntanlega eingöngu í sölu þetta tímabil, og hver veit nema hann komi aftur á markað eftir önnur 10 ár. Íslenskt vatn, Saaz humlar og tékkneskt matlað bygg sem inniheldur glútein."
+        },
+        {
+            "beerName": "Þorra Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/%C3%BEorra%20kaldi25.jpg",
+            "beerType": "Lager",
+            "beerABV": "5.6%",
+            "beerVol": "330ml",
+            "beerDescription": "Þorra Kaldi var settur fyrst á markað árið 2008, en bjórinn hefur tekið miklum breytingum frá fyrstu bruggunum. Í dag er Þorra Kaldi með mikilli beiskju, og ef ekki væri fyrir lager gerjunina á bjórnum, væri hann væntanlega flokkaður sem Pale Ale. Þorra Kaldi er koparlitaður lager bjór með mikilli beiskju og ríkri humlalykt. Í bjórinn eru notaðar þrjár tegundir af Tékknesku malti, Tékkneskir og Nýsjálenskir humlar."
+        },
+        {
+            "beerName": "Þorra Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/p%C3%A1ska%20kaldi27.jpg",
+            "beerType": "Lager",
+            "beerABV": "5.2%",
+            "beerVol": "330ml",
+            "beerDescription": "Árið 2009 kom Bruggsmiðjan fyrst með Páska Kalda. Páska Kaldi er rafbrúnn, sætur með mikilli fyllingu. Létt beiskja og ristað malt. Í glasi sjáum við koparbrúnan tón og vanilluhvíta froðu, mikið af henni. Í Páska Kalda má finna sætt malt og karamellukeim, einnig frískan ávaxtakeim. Í bjórinn eru notaðar fjórar tegundir af tékknesku malti og fjórar tegundir af humlum."
+        },
+        {
+            "beerName": "Páska Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/p%C3%A1ska%20kaldi27.jpg",
+            "beerType": "Lager",
+            "beerABV": "5.2%",
+            "beerVol": "330ml",
+            "beerDescription": "Árið 2009 kom Bruggsmiðjan fyrst með Páska Kalda. Páska Kaldi er rafbrúnn, sætur með mikilli fyllingu. Létt beiskja og ristað malt. Í glasi sjáum við koparbrúnan tón og vanilluhvíta froðu, mikið af henni. Í Páska Kalda má finna sætt malt og karamellukeim, einnig frískan ávaxtakeim. Í bjórinn eru notaðar fjórar tegundir af tékknesku malti og fjórar tegundir af humlum."
+        },
+        {
+            "beerName": "Jóla Kaldi",
+            "beerImg": "http://www.bruggsmidjan.is/static/extras/images/.m/j%C3%B3la%20kaldi26.jpg",
+            "beerType": "Christmas",
+            "beerABV": "5.2%",
+            "beerVol": "330ml",
+            "beerDescription": "Fyrir jólin árið 2008 kom Bruggsmiðjan fyrst með Jóla Kalda á markað. Bjórinn er rauður að lit, meðal fylling með mikilli karamellu sætu og þægilegri beiskju. Jóla Kaldi hefur verið gífurlega vinsæll frá því hann fór fyrst á markað og var söluhæsti flöskubjór síðastu Jól. Jóla Kaldi er rafbrúnn lager bjór.Hann hefur þétta fyllingu og er meðalbeiskur. Í bjórnum má finna malt og kryddbragð, sem og smá ávöxt."
+        }
+    ]
+}
