@@ -1,6 +1,6 @@
 [
     {
-        "name": "kaldi_bjór",
+        "name": "Kaldi",
         "brewery":"Kaldi Brugghús",
         "type":"Lager",
         "abv":"5%",
@@ -8,7 +8,7 @@
     },
     {
         "name": "Bríó",
-        "brewery":"Kaldi Brugghús",
+        "brewery":"Borg Brugghús",
         "type":"Pilsner",
         "abv":"4.7%",
         "img":"http://www.borgbrugghus.is/media/nr01brioprize.png"
