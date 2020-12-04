@@ -51,8 +51,8 @@ fetchBreweries();
 //update api data einusinni á sólarhring
 //setInterval(fetchBreweries, 1000 * 60 * 60 * 24);
 
-//update api data every 5 seconds for testing
-setInterval(fetchBreweries, 5000);
+//update api data every 60 seconds for testing
+setInterval(fetchBreweries, 1000 * 60);
 
 //set port to
 app.listen(port, () => {
