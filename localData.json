@@ -1,17 +1,22 @@
 [
     {
         "name": "Kaldi",
-        "brewery":"Kaldi Brugghús",
+        "brewery":"Kaldi",
         "type":"Lager",
         "abv":"5%",
-        "img":"http://www.bruggsmidjan.is/static/extras/images/.m/lj%C3%B3s%20kaldi22.jpg"
+        "img":"http://www.bruggsmidjan.is/static/extras/images/.m/lj%C3%B3s%20kaldi22.jpg",
+        "vol":"330ml",
+        "about":"Kaldi ljós er ljóskopargullin lager bjór með mjúkri fyllingu. Bjórinn er bruggaður úr Tékknesku malti og í hann eru notaðir Tékkneskir Sládek og Saaz humlar til að búa til þægilega beiskju og ilm."
+
     },
     {
         "name": "Bríó",
         "brewery":"Borg Brugghús",
         "type":"Pilsner",
         "abv":"4.7%",
-        "img":"http://www.borgbrugghus.is/media/nr01brioprize.png"
+        "img":"http://www.borgbrugghus.is/media/nr01brioprize.png",
+        "vol":"330ml",
+        "about":"Bríó var fyrsti bjórinn frá Borg Brugghúsi. Bríó er svokallaður pilsner-bjór en ólíkt því sem margir Íslendingar halda er pilsner ekki léttöl, heldur ljós lagerbjór frá borginni Pilsen í Bæheimi (í vestanverðu Tékklandi). Þessi bjórstíll leit fyrst dagsins ljós á miðri 19. öld og varð svo vinsæll að megnið af þeim bjór sem drukkinn er í dag er á einn eða annan hátt byggður á þessum stíl."
     }
 
 ]
