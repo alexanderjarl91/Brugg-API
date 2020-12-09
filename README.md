@@ -1,4 +1,4 @@
-# BRUGG API :beer: v.01
+# BRUGG API :beer: v 0.1.0
 
 ## Description
 
