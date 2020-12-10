@@ -7,7 +7,7 @@ Using Node.js and the Express framework, this RESTful API delivers data about br
 
 https://brugg-api.herokuapp.com/
 
-> :warning: **This API is not development anymore**: The new Brugg API is in development and can be accessed at https://github.com/alexanderjarl91/strapi-brugg/
+> :warning: **This is an outdated version of the API**: A new Brugg API is in development and can be seen at https://github.com/alexanderjarl91/strapi-brugg/
 
 
 ## Authentication
