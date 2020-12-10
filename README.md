@@ -1,10 +1,14 @@
 # BRUGG API :beer: v 0.1.0
 
+
 ## Description
 
 Using Node.js and the Express framework, this RESTful API delivers data about breweries in Iceland. This API is hosted on Heroku and was created for a school project.
 
 https://brugg-api.herokuapp.com/
+
+> :warning: **This API is not development anymore**: The new Brugg API is in development and can be accessed at https://github.com/alexanderjarl91/strapi-brugg/
+
 
 ## Authentication
 
